@@ -139,5 +139,111 @@ Key questions explored:
 
 * Did women survive more than men?
 * Did higher-class passengers survive more?
-* Did children have bet
+* Did children have better survival chances?
 
+---
+
+### 5. Feature Engineering
+
+Created new features:
+
+### FamilySize
+
+```python
+FamilySize = SibSp + Parch + 1
+```
+
+Purpose:
+To capture travel-group influence on survival.
+
+Additional analysis performed:
+
+* Survival vs Family Size
+* Family Size correlation with survival
+
+---
+
+### 6. Correlation Analysis
+
+Generated correlation matrix to understand relationships among numeric variables.
+
+Visualization:
+
+```python
+sns.heatmap()
+```
+
+Used to identify variables with strongest relationship to survival.
+
+---
+
+## Key Insights
+
+### Survival Patterns Observed
+
+* Female passengers had significantly higher survival rates
+* First-class passengers survived more often than third-class passengers
+* Children showed relatively better survival probability
+* Passengers traveling in small families often survived more than those alone or in very large groups
+
+---
+
+## Learning Outcomes
+
+This project demonstrates practical understanding of:
+
+* Data cleaning logic
+* Missing value strategies
+* Feature engineering basics
+* Visualization interpretation
+* Statistical reasoning
+
+---
+
+## Repository Structure
+
+```text
+Titanic-EDA/
+│── Titanic_EDA.ipynb
+│── train.csv
+│── README.md
+```
+
+---
+
+## Future Improvements
+
+Possible next enhancements:
+
+* Title extraction from passenger names
+* Cabin deck extraction
+* Advanced feature engineering
+* Random Forest model
+* Cross-validation
+* Hyperparameter tuning
+
+---
+
+## Why This Project Matters?
+
+The Titanic dataset remains one of the most effective beginner datasets because it teaches how multiple factors interact in real-world prediction:
+
+* social class
+* demographics
+* missing data
+* feature relationships
+
+It is an ideal foundation for developing practical data science thinking.
+
+---
+
+## Author
+
+**Swati Rai**
+
+---
+
+## Keywords
+
+Python EDA Titanic Dataset Machine Learning Data Cleaning Feature Engineering Survival Analysis Pandas Seaborn
+`Python` `EDA` `Titanic Dataset` `Machine Learning` `Data Cleaning` `Feature Engineering` `Survival Analysis` `Pandas` `Seaborn` `Scikit-learn`
