@@ -243,7 +243,4 @@ It is an ideal foundation for developing practical data science thinking.
 
 ## Keywords
 
-Python EDA Titanic Dataset Machine Learning Data Cleaning Feature Engineering Survival Analysis Pandas Seaborn
-
-Python EDA Titanic Dataset Machine Learning Data Cleaning Feature Engineering Survival Analysis Pandas Seaborn
 `Python` `EDA` `Titanic Dataset` `Machine Learning` `Data Cleaning` `Feature Engineering` `Survival Analysis` `Pandas` `Seaborn` `Scikit-learn`
