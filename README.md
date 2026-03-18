@@ -3,9 +3,9 @@
 ## Project Overview
 
 This project presents a complete **Exploratory Data Analysis (EDA)** of the Titanic Dataset using Python.
-The objective is to understand passenger survival patterns, identify influential variables, clean and preprocess the dataset, engineer meaningful features, and build a beginner-friendly predictive model.
+The objective is to understand passenger survival patterns, identify influential variables, clean and preprocess the dataset and engineer meaningful features.
 
-The project is designed as a practical introduction to the **real data science workflow**, starting from raw data inspection and ending with basic machine learning.
+The project is designed as a practical introduction to the **real data science workflow**.
 
 ---
 
@@ -19,8 +19,7 @@ The main goals of this assignment are:
 * Study feature distributions and relationships
 * Engineer new useful variables
 * Analyze factors influencing survival
-* Prepare data for machine learning
-* Build a simple predictive model
+
 
 ---
 
@@ -61,7 +60,6 @@ The dataset contains passenger-level information such as:
 * NumPy
 * Matplotlib
 * Seaborn
-* Scikit-learn
 
 ---
 
@@ -244,6 +242,8 @@ It is an ideal foundation for developing practical data science thinking.
 ---
 
 ## Keywords
+
+Python EDA Titanic Dataset Machine Learning Data Cleaning Feature Engineering Survival Analysis Pandas Seaborn
 
 Python EDA Titanic Dataset Machine Learning Data Cleaning Feature Engineering Survival Analysis Pandas Seaborn
 `Python` `EDA` `Titanic Dataset` `Machine Learning` `Data Cleaning` `Feature Engineering` `Survival Analysis` `Pandas` `Seaborn` `Scikit-learn`
